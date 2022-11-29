@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Series3
+{
+    public static void main(String[] args)
+    {Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    for(int i=1;i<=a;i++)
+    {
+      double p=Math.pow(3,i);
+      System.out.printf("%.0f ",p);
+    }
+       
+    }
+}
